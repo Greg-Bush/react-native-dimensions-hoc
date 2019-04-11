@@ -1,0 +1,52 @@
+{
+  "name": "react-native-dimensions-hoc",
+  "version": "0.0.1",
+  "description": "A HOC to provide width and height properties with actual dimensions for your React-Native components.",
+  "main": "index.tsx",
+  "files": [
+    "index.tsx"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "github:Greg-Bush/react-native-dimensions-hoc"
+  },
+  "keywords": [
+    "typescript",
+    "TS",
+    "react-native",
+    "measure",
+    "width",
+    "height",
+    "size",
+    "dimensions",
+    "HOC",
+    "view",
+    "component"
+  ],
+  "author": "Greg-Bush <greg.bush.main@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "github:Greg-Bush/react-native-dimensions-hoc/issues"
+  },
+  "homepage": "github:Greg-Bush/react-native-dimensions-hoc",
+  "peerDependencies": {
+    "react": ">= 16.8.6",
+    "react-native": ">= 0.59.2"
+  },
+  "dependencies": {
+    "hoist-non-react-statics": "^3.3.0"
+  },
+  "devDependencies": {
+    "react": "^16.8.6",
+    "react-native": "^0.59.2",
+    "@types/hoist-non-react-statics": "^3.3.1",
+    "@types/react": "^16.8.13",
+    "@types/react-native": "^0.57.43",
+    "tslint": "^5.15.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.4.3",
+    "typescript-tslint-plugin": "^0.3.1",
+  }
+}
