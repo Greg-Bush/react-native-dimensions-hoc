@@ -1,6 +1,6 @@
 {
   "name": "react-native-dimensions-hoc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A HOC to provide width and height properties with actual dimensions for your React-Native components.",
   "main": "index.tsx",
   "files": [
