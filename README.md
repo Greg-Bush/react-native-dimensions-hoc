@@ -7,7 +7,7 @@
 ```tsx
 import React from 'react';
 import { ViewProps } from "react-native";
-import { withDimensions, IDimensionsProps } from "react-native-dimensions-hoc";
+import withDimensions, { IDimensionsProps } from "react-native-dimensions-hoc";
 
 export interface YourComponentProps extends ViewProps {
     ...
