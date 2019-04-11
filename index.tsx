@@ -12,7 +12,8 @@ interface IForwardedRefProp<T = any> {
 	forwardedRef: React.Ref<T>;
 }
 /**
- * @description A HOC to provide width and height properties with actual dimensions for your React-Native components.
+ * @description
+ * A HOC to provide width and height properties with actual dimensions for your component.
  * @author https://github.com/Greg-Bush
  * @date 2019-04-11
  * @template TResultProps
@@ -21,7 +22,9 @@ interface IForwardedRefProp<T = any> {
 export default function withDimensions<TResultProps extends ViewProps>(
 	WrappedComponent: React.ComponentType<IDimensionsProps>,
 ) {
-	class WithDimensions extends React.Component<TResultProps & IForwardedRefProp<typeof WrappedComponent>> {
+	class WithDimensions extends React.Component<
+		TResultProps & IForwardedRefProp<typeof WrappedComponent>
+		> {
 		public static displayName = `withDimensions(${getDisplayName(WrappedComponent)})`;
 		public state = { width: 0, height: 0, initialRender: false };
 		public render() {
