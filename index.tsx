@@ -11,6 +11,7 @@ export interface IDimensionsProps extends ViewProps {
 interface IForwardedRefProp<T = any> {
 	forwardedRef: React.Ref<T>;
 }
+
 /**
  * @description
  * A HOC to provide width and height properties with actual dimensions for your component.
