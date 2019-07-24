@@ -35,10 +35,10 @@ export default function withDimensions<TResultProps extends ViewProps>(
 					(
 						<WrappedComponent
 							ref={forwardedRef}
-							{...props}
 							width={this.state.width}
 							height={this.state.height}
 							remeasure={this.measure}
+							{...props}
 						>
 							{this.props.children}
 						</WrappedComponent>
