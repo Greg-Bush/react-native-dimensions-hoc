@@ -18,7 +18,7 @@ class YourComponent extends React.Component<YourComponentProps & IDimensionsProp
     render() {
         const { width, height, remeasure, ...viewProps } = this.props;
         return (
-            <View {...viewProps} onLayout={this.props.remeasure}>
+            <View {...viewProps} onLayout={remeasure}>
                 ...
             </View>
         );
